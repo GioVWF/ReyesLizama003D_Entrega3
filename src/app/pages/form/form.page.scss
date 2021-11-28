@@ -1,0 +1,72 @@
+ion-toolbar{
+    --background: #ffffff;
+}
+ion-title{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #22bb88;
+    padding-top: 8px;
+    font-weight: bolder;
+    margin: 0 auto;
+    
+}
+
+ion-content{
+    --background: #22bb88;
+}
+
+.form {
+    margin-top: 2%;
+}
+
+ion-input {
+    background: transparent;
+    font-family:monospace;
+    font-size: 16px;
+    line-height: 1.2;
+    border: none;
+    outline: none;
+    height: 46px;
+}
+
+ion-item {
+    width: 95%;
+    background-color: #ffffffcc;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px 0px #3947521f; 
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+ 
+h1{
+    margin-top: 2%;
+    text-align: center;
+    color: #000000;
+    font-weight: bolder; 
+}
+
+.registrar{
+    text-align: center;
+}
+
+.login{
+    color: black;
+    text-decoration: none;
+}
+
+.login:hover{
+    color: #67ff02;
+    text-decoration: none;
+}
+
+ion-button {
+    --background: #1fcc70;
+   margin: 0 auto;
+}
+
+ion-button:hover{
+    --background: #ade6c7;
+   margin: 0 auto;
+}
+

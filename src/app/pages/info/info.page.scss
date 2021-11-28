@@ -1,0 +1,46 @@
+ion-toolbar{
+    --background: #ffffff;
+}
+
+ion-title{
+    font-size: 23px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #22bb88;
+    text-justify: inter-word;
+    padding-top: 2px;
+    font-weight: bolder;
+}
+
+ion-avatar {
+    --border-radius: 4px;
+    padding-top: 4px;
+    padding-left: 12px;
+}
+
+ion-button{
+    color: #000000;
+}
+ion-content{
+    --background: #22bb88;
+}
+ion-card{
+    background-color: #ffffff;
+}
+ion-card-content p{
+    color: #000000;
+}
+ion-card-subtitle{
+    text-align: center;
+    color: #49751d;
+    font-weight: bolder;
+}
+ion-card-title{
+    text-align: center;
+    font-weight: bolder;
+    color: #000;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+}

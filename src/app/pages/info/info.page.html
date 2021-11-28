@@ -1,0 +1,127 @@
+<ion-header *ngIf="user$ | async as user">
+  <ion-toolbar>
+    <ion-buttons slot="end">
+      <ion-button href="home" color="black">
+        Atrás
+      </ion-button>
+    </ion-buttons>
+    <ion-buttons slot="start">
+      <ion-avatar>
+        <ion-img src="assets/plant.png" class="logo"></ion-img>
+      </ion-avatar>
+    </ion-buttons>
+    <ion-title>Save World</ion-title>
+    <ion-title>{{user.email}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-card>
+    <ion-img src="assets/lombriz.jpg"></ion-img>
+    <ion-card-header>
+      <ion-card-subtitle>
+        El humus que genera puede ser aplicado como abono biológico en cultivos y en terrenos erosionados para recuperarlos.
+      </ion-card-subtitle>
+      <ion-card-title>
+        Lombricultura
+      </ion-card-title>
+    </ion-card-header>
+    <ion-card-content class="ion-padding">
+      <p> 
+        Se entiende por Lombricultura a la producción de lombrices y 
+        el tratamiento, por medio de ellas, de residuos orgánicos 
+        para su reciclaje en forma de abono denominado humus de lombriz.
+      </p>
+      <br>
+      <p>
+        Es una biotecnología que utiliza a una especie doméstica de lombriz, 
+        como herramienta de trabajo encargada de reciclar material de origen orgánico.
+      </p>
+      <br>
+      <p>
+        En el proceso de transformación de desechos biológicos, la Lombriz Roja 
+        Californiana se comporta como un protector y restaurador del medio ambiente. 
+      </p>
+    </ion-card-content>
+   </ion-card>
+
+   <ion-card>
+    <ion-img src="assets/bombillas.jpg"></ion-img>
+    <ion-card-header>
+      <ion-card-subtitle>
+        ¡Tomémosle el peso al daño que producen al medio ambiente!
+      </ion-card-subtitle>
+      <ion-card-title>
+        Bombillas Plasticas
+      </ion-card-title>
+    </ion-card-header>
+    <ion-card-content class="ion-padding">
+      <p>Actualmente el 90% de la basura del mar es plástico, y tu puedes ayudar a dejar de 
+        contaminar el océano, Dejar de usar bombillas plasticas es una decisión sencilla. Es el primer 
+        paso para comprender que este es un problema de todos. Piénsalo, ¿realmente la necesitas?
+      </p>
+      <br>
+      <p>Las utilizamos solo una vez, las botamos inmediatamente a la basura y no se pueden reciclar.</p>
+    </ion-card-content>
+   </ion-card>
+
+   <ion-card>
+    <ion-img src="assets/cbambu.png"></ion-img>
+    <ion-card-header>
+      <ion-card-subtitle>
+        Este material puede ser descompuesto o desintegrado en poco tiempo por organismos vivientes y 
+        ser reintroducido dentro de los ciclos de los nutrientes de la naturaleza
+      </ion-card-subtitle>
+      <ion-card-title>
+        Cepillos de Bambú
+      </ion-card-title>
+    </ion-card-header>
+    <ion-card-content class="ion-padding">
+     <p>
+        Los cepillos de dientes tradicionales suelen estar compuestos por distintos materiales, y aunque 
+        algunos sean “técnicamente” reciclables por separado, suelen estar unidos de tal manera que es muy 
+        difícil separar sus materiales para su reciclaje.  
+     </p>
+     <br>
+     <p>
+        En contraparte, los cepillos de Bambú, están compuestos por un mango hecho de bambú el cual puede 
+        ser degradado y vuelto a formar parte del suelo de manera natural.
+     </p>
+     <br>
+     <p>
+      Un cepillo de dientes de plástico le puede llevar más de 1000 años degradarse, incluso, algunos plásticos 
+      nunca desaparecen, sino que se van rompiendo en piezas cada vez más pequeñas hasta que llegan a ser 
+      imperceptibles para nosotros, pero continúan dando vueltas por nuestro entorno.
+     </p>
+     <br>
+     <p>Por su parte, el bambú es una madera, por lo tanto, un material 100% natural. El mango de un cepillo de 
+       dientes de bambú puede tardar entre 1-3 años dependiendo de dónde se composta.
+      </p>
+    </ion-card-content>
+   </ion-card>
+   <ion-card>
+    <ion-img src="assets/cargadorsolar.jpg"></ion-img>
+    <ion-card-header>
+      <ion-card-subtitle>
+        Algo tan cotidiano como cargar el móvil puede ser respetuoso con 
+        el medio ambiente si utilizas un cargador solar.    
+      </ion-card-subtitle>
+      <ion-card-title>
+        Cargador Móvil Solar
+      </ion-card-title>
+    </ion-card-header>
+    <ion-card-content class="ion-padding">
+     <p>
+        El sol origen de energía inagotable del planeta tierra, constituye la fuente de energía para el cargador solar. 
+        Es un dispositivo que aprovecha este recurso energético sin contaminar el ambiente. El uso de este tipo de 
+        cargador libra a la atmósfera de contaminación de gases de efecto invernadero, de contaminación sónica y acuática. 
+        La energía solar es energía limpia o renovable. 
+     </p>
+     <br>
+     <p>
+        La reducción del consumo de electricidad es importante para el planeta y para la naturaleza, por ese motivo aprovechar 
+        el sol como fuente de energía puede ser fundamental. 
+     </p>
+    </ion-card-content>
+   </ion-card>
+</ion-content>

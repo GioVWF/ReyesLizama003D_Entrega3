@@ -1,0 +1,57 @@
+<ion-header *ngIf="user$ | async as user">
+  <ion-toolbar>
+    <ion-buttons slot="end">
+      <ion-button (click)="mostrarMenu()" color="black">
+        <ion-icon slot="icon-only" name="menu-outline"></ion-icon>
+       </ion-button>
+    </ion-buttons>
+    <ion-buttons slot="start">
+      <ion-avatar>
+        <ion-img src="assets/plant.png" class="logo"></ion-img>
+      </ion-avatar>
+    </ion-buttons>
+    <ion-title>Save World</ion-title>
+    <ion-title>{{user.email}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content class="ion-padding" *ngIf="user$ | async as user">
+  <H1>Bienvenid@ {{(user.email)?.substring(0,3)}}</H1>
+<ion-card>
+  <ion-card-content>
+    <H1>¿Sabías qué?</H1>
+    <ion-img src="assets/Cglobal.jpg"></ion-img>
+      <br>
+      <p>La temperatura global esta en camino de sobrepasar el limite de 1,5 grados Celsius, 
+      lo que supondra un grave riesgo para nuestro planeta, derretimiento de los polos, 
+      aumento del nivel del mar, extinción de flora, fauna y finalmente nuestro planeta 
+      completamente inhabitable. </p>
+      <br>
+      <H2>Importancia del reciclaje</H2>
+    <ion-img src="assets/Reciclaje.jpg"></ion-img>
+      <br>
+      <p>La recolección y el procesamiento de desechos de <b>papel</b>  y <b>cartón</b> , <b>vidrio</b>  o <b>plástico</b> 
+      supone crear nuevos productos basados en esos mismos materiales.</p>
+      <br>
+      <H3>Reciclar es bueno porque</H3>  
+    <ion-img src="assets/Rimp.jpg"></ion-img>  
+      <p> <b>Conserva Recursos naturales.</b>  <br><br> <b>Reduce el consumo energético.</b>  Por Ejemplos, los plásticos reciclados suponen un ahorro del 70%. 
+      <br><br> <b>Disminuir las emisiones de Co2.</b>  La reducción de 18 millones de toneladas de Co2 gracias a los materiales reciclados equivale 
+      a retirar de la circulación cinco millones de automóviles. <br><br> <b>Menos vertederos y Generar empleo.</b> </p>  
+    <div class="container">
+        <div class="lineas">
+            <div class="diamante"></div>
+        </div>
+    </div>
+    <div class="slogan"><p><big><b>Save World</b> Busca el desarrollo sustentable fomentando el reciclaje.</big></p></div>
+      <div class="container">
+        <div class="lineas">
+            <div class="diamante"></div>
+        </div>
+    </div>
+    </ion-card-content>
+</ion-card>  
+ 
+ 
+    
+             
+</ion-content>

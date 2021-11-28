@@ -1,0 +1,101 @@
+ion-toolbar{
+    --background: #ffffff;
+}
+
+
+
+ion-title{
+    font-size: 23px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #22bb88;
+    text-justify: inter-word;
+    padding-top: 2px;
+    font-weight: bolder;
+}
+
+ion-content{
+    --background: #22bb88;
+}
+
+ion-content H1{
+    color: #000000;
+    margin: 0 auto;
+    padding-left: 10px;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+ion-button{
+    color: #000000;
+}
+
+ion-card{
+    background-color: #ffffff;
+}
+
+ion-card-content H1,H2,H3{
+    text-align: center;
+    font-weight: bolder;
+    color: #49751d;
+    font-size:large;
+}
+
+ion-card-content p{
+    font-size: small;
+}
+
+ion-card-content b{
+    color: #000000;
+}
+
+.slogan{
+    background-color: #aee677ab;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.slogan b{
+    color: #49751d;
+}
+
+.container{
+    padding-top: 20px;
+    margin-bottom: -10px;
+}
+
+.lineas{
+    width: 100%;
+    height: 45px;
+    position: relative;
+}
+
+.lineas::after, .lineas::before{
+    content:'';
+    position: absolute;
+    margin: auto;
+    height: 2px;
+    background:  #49751d;
+    width: 45%;
+    top: 19%;
+}
+
+.lineas::after{
+    left:0;
+}
+
+.lineas::before{
+    right:0;
+}
+
+.diamante {
+    height: 19px;
+    width: 19px;
+    border: 2px solid #49751d;
+    left:0;
+    right: 0;
+    top: 10px;
+    bottom: 0;
+    margin: auto;
+    transform: rotate(45deg);
+}

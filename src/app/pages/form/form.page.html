@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-toolbar>
+
+    <ion-buttons slot="start">
+      <ion-avatar>
+        <ion-img src="assets/plant.png" class="logo"></ion-img>
+      </ion-avatar>
+    </ion-buttons>
+    <ion-title>Save World</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <h1>Registro</h1>
+    <form class="form">
+      <ion-item>
+        <ion-label postition="floating">Correo</ion-label>
+        <ion-input type="text" placeholder="Ingrese su correo" #email required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label postition="floating">Contraseña</ion-label>
+        <ion-input type="password" placeholder="Ingrese su contraseña" #password required></ion-input>
+      </ion-item>
+      <ion-row>
+        <ion-col class="registrar">
+          <ion-button  type="submit" (click)="onRegister(email, password)" shape="round">
+            Registrar</ion-button>
+        </ion-col>
+      </ion-row>
+    </form>
+    <ion-row>
+      <ion-col class="registrar">
+        <p>
+          <a  class="login" href="login">Ya tienes una cuenta?</a>
+        </p>
+      </ion-col>
+    </ion-row>
+</ion-content>
